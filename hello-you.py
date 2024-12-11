@@ -2,8 +2,8 @@
 
 
 
-def main(your_name):
-    print("Hello ", your_name, "!")
+def main(name):
+    print("Hello ", name, "!")
     print("For more information on Itential Automation Service, check out:")
     print("https://docs.itential.com/itential-cloud/docs/announcements")
 
