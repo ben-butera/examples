@@ -1,11 +1,15 @@
-#!/usr/bin/env python
+import argparse
 
-your_name = ''
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--your_name', required=TRUE, help="Give us your name!  As a string, please.")
+    args = parser.parse_args()
 
-def main(a_name):
-    print("Hello ", str(a_name), "!")
+    runner_name = args.your_name
+    
+    print("Hello ", runner_name, "!")
     print("For more information on Itential Automation Service, check out:")
     print("https://docs.itential.com/itential-cloud/docs/announcements")
 
 if __name__ == "__main__":
-    main(your_name)
+    main()
