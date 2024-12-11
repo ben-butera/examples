@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
+your_name = ''
 
-
-def main(name):
-    print("Hello ", name, "!")
+def main(a_name):
+    print("Hello ", str(a_name), "!")
     print("For more information on Itential Automation Service, check out:")
     print("https://docs.itential.com/itential-cloud/docs/announcements")
 
