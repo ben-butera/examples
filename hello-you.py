@@ -2,7 +2,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("your_name")
+    parser.add_argument('--your_name')
     args = parser.parse_args()
 
     runner_name = args.your_name
